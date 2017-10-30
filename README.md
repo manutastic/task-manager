@@ -1,5 +1,5 @@
 # Task Manager
-An easy-to-use web app built with AngularJS.
+An easy-to-use web app built with [AngularJS](https://angular.io/) and [Angular Material.](https://material.angular.io)
 
 ## Features:
 
