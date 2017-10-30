@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+  <h1>All tasks</h1>
+  <span class="fill-remaining-space"></span>
+  <button mat-icon-button><mat-icon>mode_edit</mat-icon></button>
+  <button mat-icon-button><mat-icon>add_circle</mat-icon></button>
+</mat-toolbar>
+
+<mat-selection-list #shoes>
+  <mat-list-option *ngFor="let task of tasks">
+    <span>{{task.title}}</span>
+    <span>{{task.due | date}}</span>
+  </mat-list-option>
+</mat-selection-list>
